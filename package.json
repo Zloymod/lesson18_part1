@@ -1,0 +1,23 @@
+{
+  "name": "lesson18",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.mjs",
+    "start": "rollup -c -w rollup.config.mjs"
+  },
+  "author": "Korolev Denis",
+  "license": "ISC",
+  "description": "Rollup",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.1",
+    "rollup-plugin-styles": "^4.0.0"
+  }
+}
